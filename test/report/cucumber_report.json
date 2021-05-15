@@ -1,0 +1,156 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bank-account;stores-money",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Stores money",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A bank account with starting balance of $100",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "$100 is deposited",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The bank account balance should be $200",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bank-account",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Bank Account",
+    "tags": [],
+    "uri": "features\\bank-account.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "json-handling;deserialize-json-string",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Deserialize JSON String",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "JSON String",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Serialize JSON to Profile Model",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Validate Name and Address are correct",
+            "match": {
+              "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "json-handling",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "JSON Handling",
+    "tags": [],
+    "uri": "features\\json-handling.feature"
+  }
+]
