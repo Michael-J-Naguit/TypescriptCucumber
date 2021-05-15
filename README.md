@@ -14,3 +14,8 @@ npm install protractor
 webdriver-manager update
 
 webdriver-manager start
+
+
+for Cucumber Reporting
+
+npm install --save-dev cucumber-html-reporter
