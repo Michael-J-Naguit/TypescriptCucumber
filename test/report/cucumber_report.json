@@ -74,7 +74,7 @@
     "keyword": "Feature",
     "name": "Bank Account",
     "tags": [],
-    "uri": "features\\bank-account.feature"
+    "uri": "features\\bank_account.feature"
   },
   {
     "description": "",
@@ -83,7 +83,7 @@
         "description": "",
         "id": "json-handling;deserialize-json-string",
         "keyword": "Scenario",
-        "line": 3,
+        "line": 4,
         "name": "Deserialize JSON String",
         "steps": [
           {
@@ -95,9 +95,17 @@
             }
           },
           {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 5,
             "name": "JSON String",
             "match": {
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:196"
@@ -110,7 +118,7 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
+            "line": 6,
             "name": "Serialize JSON to Profile Model",
             "match": {
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:206"
@@ -123,7 +131,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 7,
             "name": "Validate Name and Address are correct",
             "match": {
               "location": "node_modules\\cucumber-tsflow\\src\\binding-decorator.ts:216"
@@ -140,17 +148,35 @@
               "status": "passed",
               "duration": 0
             }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@tagName",
+            "line": 1
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "json-handling",
-    "line": 1,
+    "line": 2,
     "keyword": "Feature",
     "name": "JSON Handling",
-    "tags": [],
-    "uri": "features\\json-handling.feature"
+    "tags": [
+      {
+        "name": "@tagName",
+        "line": 1
+      }
+    ],
+    "uri": "features\\json_handling.feature"
   }
 ]

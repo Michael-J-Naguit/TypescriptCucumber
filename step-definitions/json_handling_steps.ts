@@ -1,7 +1,7 @@
 import { binding, given, then, when} from 'cucumber-tsflow';
 import { assert } from 'chai';
-import { SerializationHelper } from "../helpers/SerializationHelper";
-import { Profile_Model } from "../models/Profile_Model";
+import { SerializationHelper } from "../helpers/serialization_helper";
+import { Profile_Model } from "../models/profile_model";
 
 @binding()
 export class JSONHandlingSteps {

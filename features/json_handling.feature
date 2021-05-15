@@ -1,3 +1,4 @@
+@tagName
 Feature: JSON Handling
 
   Scenario: Deserialize JSON String
