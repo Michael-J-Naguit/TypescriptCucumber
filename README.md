@@ -19,3 +19,8 @@ webdriver-manager start
 for Cucumber Reporting
 
 npm install --save-dev cucumber-html-reporter
+
+
+for "Go to Definition" to work
+
+https://stackoverflow.com/questions/57558456/not-able-to-perform-go-to-definition-functionality-in-feature-file-to-navigate-t
